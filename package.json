@@ -1,0 +1,19 @@
+{
+  "name": "mintlify-docs",
+  "version": "1.0.0",
+  "description": "Mintlify documentation site",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "mint dev",
+    "export": "mint build && cp -r .mintlify/* dist/"
+  },
+  "dependencies": {
+    "mint": "latest"
+  },
+  "devDependencies": {
+    "fs-extra": "^11.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
